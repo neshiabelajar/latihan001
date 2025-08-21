@@ -13,8 +13,8 @@
     .container {
         display: flex;
         flex-direction: column;/* susun item secara vertikal secara delfaut*/
-    
     }
+
     .header {
         border: rgb(173, 159, 204) 2px solid;
         border-radius: 10px;
@@ -25,7 +25,7 @@
     }
 
     .main-content {
-        display: flex;
+        display:flex;
         gap: 10px; /*jarak antar item flex */
         margin-bottom: 10px;
     }
@@ -35,6 +35,15 @@
         padding: 15px;
         width: 200px;
     }
+
+    .articles {
+        display: flex;
+        flex-direction: column; /* Susun artikel secara vertikal */
+        gap: 10px;
+        flex-grow: 1; /* Membuat area artikel mengisi ruang yang tersedia */
+        background-color: #d5aae0;
+      }
+
 
     .article {
         background-color: rgb(248, 204, 242);
