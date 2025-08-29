@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Grid Simple</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #d4f0ff, #e6ffe6);
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 600px;
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "sidebar article"
+      "footer footer";
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+
+  .box {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .header { grid-area: header; }
+  .sidebar { grid-area: sidebar; }
+  .article { grid-area: article; }
+  .footer { grid-area: footer; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2 style="grid-column: 1 / -1; text-align: center;">CSS GRID</h2>
+    <div class="box header">Header</div>
+    <div class="box sidebar">Sidebar</div>
+    <div class="box article">Article</div>
+    <div class="box footer">Footer</div>
+  </div>
+</body>
+</html>
