@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durdur Ikan</title>
+    <style>
+        img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cool Fish</a>
+
+        <nav>
+            <a href="#" class="home">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Skils</a>
+            <a href="#">Education</a>
+            <a href="#">Experiences</a>
+            <a href="#">Contact</a>
+
+        </nav>
+   </header>
+
+   
+   <section class="parents">
+       <div class="gambar">
+         <img src="/images/ikanduri.jpg" alt="Ikan Duri">
+       </div>
+       <div class="content">
+        <h1>Hi, It`s Si Cool Fish</h1>
+        <h3>i`m a sea animal </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae labore a, ipsum nobis facere nisi ducimus harum voluptate ut error quaerat vero, accusantium nesciunt vitae est, excepturi architecto incidunt voluptates.</p>
+    
+       </div>
+
+       <div class="Social Icon">
+         <a href="#" class="Linkedin">Linkedin</a>
+         <a href="#" class="Github">Github</a>
+         <a href="#" class="Twitter">Twitter</a>
+         <a href="#" class="instagram">instagram</a>
+         <a href="#" class="Tiktok">Tiktok</a>
+       </div>
+       <a href="#" class="btn">Hire me</a>
+   </section>
+    
+</body>
+</html>
